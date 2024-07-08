@@ -11,7 +11,8 @@ function generate() {
    for ( i = 0; i < 15; i++ ) {
 let randomi = Math.floor(Math.random()* characters.length)
    new_password += characters[randomi] ;
-   new_password1 += characters[randomi] ;
+let randomii = Math.floor(Math.random()* characters.length)
+   new_password1 += characters[randomii] ;
 }
 password_el.textContent = new_password ;
 password_el1.textContent = new_password1 ;
